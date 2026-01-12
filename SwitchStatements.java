@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+// The switch expression is evaluated once
+// The result is compared with each case value
+// If there's a match, the matching block of code runs
+// The  break statements stops the switch after the matching case had ran
+// The default statement runs if there is no match
+
+
 public class SwitchStatements {
     public static void main(String[] args){
 

@@ -19,7 +19,12 @@ public class SwitchStatements {
         System.out.println("Enter the operator here: ");
         if (keyboard.hasNextLine()){
 
-            keyboard.nextLine();
+            case 7:
+                System.out.println("Sunday");
+                break;
+
+            default:
+                System.out.println("Looking forward for the weekend");
         }
         String operator = keyboard.nextLine();
 
